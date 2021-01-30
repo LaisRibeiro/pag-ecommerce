@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
 import React, { useState, useEffect } from 'react';
-import './style.css';
+import './styles.css';
 import { CSSTransition } from 'react-transition-group';
 import { IoBasketOutline, IoPersonCircleOutline, IoSearchSharp, IoMenu } from "react-icons/io5";
 
