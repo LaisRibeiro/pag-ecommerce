@@ -6,9 +6,9 @@ import './styles.css';
 export default function Banner(){
 
     return(
-        <Swiper style={{ marginTop: '70px' }} className='swiper-container'>
+        <Swiper style={{ marginTop: '60px' }} className='swiper-container'>
             <SwiperSlide>
-                <img src="https://picsum.photos/seed/picsum/1700/500"/>
+                <img src="https://picsum.photos/1600/500?random=3"/>
             </SwiperSlide>
         </Swiper>
     );
