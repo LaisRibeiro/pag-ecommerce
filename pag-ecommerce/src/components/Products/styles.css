@@ -1,0 +1,12 @@
+.img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.Grid {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    align-items: center;
+    justify-items: center;
+  }
