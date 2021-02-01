@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 
+.principalGridInsta {
+    position: relative;
+    width: 100%;
+}
+
 .gridInsta {
     display: grid;
     grid-template-columns: repeat(3, auto);

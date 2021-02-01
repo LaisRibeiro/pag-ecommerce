@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 
+.principalGridHeader {
+  position: static;
+}
+
 .Header {
     position: fixed;
     top: 0;

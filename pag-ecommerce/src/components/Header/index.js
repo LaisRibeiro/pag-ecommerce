@@ -33,7 +33,7 @@ export default function Header() {
   };
 
   return (
-    <div className='root'>
+    <div className='principalGridHeader'>
       <header className='Header'>
         <img src={Logo} className="Logo" alt="logo" />
         <CSSTransition

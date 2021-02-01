@@ -5,7 +5,7 @@ import './styles.css';
 
 export default function Instagram(){
     return(
-        <div>
+        <div className='principalGridInsta'>
           <div className='gridInsta'>
               <div>
                   <img className='imgInsta' src="https://picsum.photos/250/250?random=3"/>      

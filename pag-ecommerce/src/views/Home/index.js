@@ -1,5 +1,4 @@
 import React from 'react';
-import { Grid, Row, Col } from 'react-flexbox-grid';
 
 import './styles.css';
 
@@ -13,8 +12,8 @@ export default function Home(){
 
     return (
       <div>
-          {/* <Header/>
-          <Banner/> */}
+          <Header/>
+          <Banner/>
           <Products/>
           <ProductsBanner/>
           <Instagram/>

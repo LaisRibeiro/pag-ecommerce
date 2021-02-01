@@ -5,7 +5,7 @@ import './styles.css';
 
 export default function ProductsBanner(){
     return(
-        <div>
+        <div className='principalGrid'>
             <div className='faixa'/>
             <div className='gridFaixa'>
                 <div className='gridTitle'>
