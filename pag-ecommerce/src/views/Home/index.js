@@ -7,6 +7,7 @@ import Banner from '../../components/Banner';
 import Products from '../../components/Products';
 import ProductsBanner from '../../components/ProductsBanner';
 import Instagram from '../../components/Instagram';
+import Footer from '../../components/Footer';
 
 export default function Home(){
 
@@ -17,6 +18,7 @@ export default function Home(){
           <Products/>
           <ProductsBanner/>
           <Instagram/>
+          <Footer/>
       </div>
     );
 }
