@@ -10,6 +10,17 @@
     z-index: 0;
   }
 
+ .faixa2 {
+    background-color: #F6F6F6;
+    position: absolute;
+    max-width: 1200px;
+    width: 80%;
+    height: 500px;
+    left: 0;
+    z-index: 0;
+  }
+
+
   .gridFaixa {
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -48,6 +59,15 @@
     min-height: auto;    
 }
 
+.imgFaixa2 {
+    display: block;
+    max-width: 250px;
+    width: 100%;
+    max-height: 350px;
+    min-height: auto;
+    margin-top: 50px;    
+}
+
 .pTitle {
     font-family: 'Playfair Display';
     text-align: center;
@@ -69,7 +89,15 @@
     margin-top: -20px;  
 }
 
-.h1, .imgCard1, .backgroudTxt, .imgCard2 {
+.swiper-container2 {
+    position: fixed;
+    width: 350px;
+    height: 250px;
+    overflow: hidden;
+    }
+
+.h1, .imgCard1, .backgroudTxt, .imgCard2, .imgFaixa2,
+.pSubtitle, .pTitle, .swiper-container2 {
     position: relative;
     z-index: 5;
   }

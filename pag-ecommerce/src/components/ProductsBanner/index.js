@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 import './styles.css';
 
 export default function ProductsBanner(){
-
     return(
         <div>
             <div className='faixa'/>
@@ -46,6 +46,30 @@ export default function ProductsBanner(){
                         <p className='pSubtitle'>Lorem ipsum dolor sit amet, consectetur
                             adipiscing elit, sed do eiusmod tempo.</p>
                     </div>
+                </div>
+            </div>
+            <div className='faixa2'/>
+            <div className='gridFaixa'>
+                <div>
+                    <img className='imgFaixa2' src="https://picsum.photos/250/350?random=3"/>
+                </div>
+                <div>
+                    <p className='pSubtitle'>Lorem ipsum lorem dolor</p>
+                    <p className='pTitle'>Lorem ipsum dolor sit amet</p>
+                    <p className='pSubtitle'>Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed do eiusmod tempor
+                                            incididunt ut labore et dolore magna
+                                            aliqua. Metus vulputate eu scelerisque
+                                            felis imperdiet proin fermentum. Praesent
+                                            semper feugiat nibh sed pulvinar proin
+                                            gravida.</p>
+                </div>
+                <div>
+                    <Swiper style={{ marginTop: '60px' }} className='swiper-container2'>
+                        <SwiperSlide>
+                            <img src="https://picsum.photos/350/250?random=3"/>
+                        </SwiperSlide>
+                    </Swiper>
                 </div>
             </div>
         </div>
