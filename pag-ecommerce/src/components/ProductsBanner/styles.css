@@ -32,7 +32,44 @@
     justify-items: center;
 }
 
-.h1 {
+.imgCard1 {
+    display: block;
+    max-width: 350px;
+    width: 100%;
+    max-height: 450px;
+    min-height: auto;    
+}
+
+.imgCard2 {
+    display: block;
+    max-width: 350px;
+    width: 100%;
+    max-height: 200px;
+    min-height: auto;    
+}
+
+.pTitle {
+    font-family: 'Playfair Display';
+    text-align: center;
+    margin: 20px;
+}
+
+.pSubtitle {
+    font-family: 'PT Sans';
+    text-align: center;
+    margin: 20px
+}
+
+.backgroudTxt {
+    background-color: #F5E5D9;
+    max-width: 350px;
+    width: 100%;
+    max-height: 250px;
+    min-height: auto;
+    margin-top: -20px;  
+}
+
+.h1, .imgCard1, .backgroudTxt, .imgCard2 {
     position: relative;
     z-index: 5;
   }

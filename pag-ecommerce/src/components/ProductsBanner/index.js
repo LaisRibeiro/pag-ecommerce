@@ -19,6 +19,34 @@ export default function ProductsBanner(){
                         semper feugiat nibh sed pulvinar proin
                         gravida.</h5>
                 </div>
+                <div>
+                    <div>
+                        <img className='imgCard1' src="https://picsum.photos/350/450?random=3"/>
+                    </div>
+                    <div className='backgroudTxt'>
+                        <p className='pTitle'>Título do Banner</p>
+                        <p className='pSubtitle'>Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempo.</p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img className='imgCard2' src="https://picsum.photos/350/200?random=3"/>
+                    </div>
+                    <div className='backgroudTxt'>
+                        <p className='pTitle'>Título do Banner</p>
+                        <p className='pSubtitle'>Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempo.</p>
+                    </div>
+                    <div style={{marginTop: '80px'}}>
+                        <img className='imgCard1' src="https://picsum.photos/350/450?random=3"/>
+                    </div>
+                    <div className='backgroudTxt'>
+                        <p className='pTitle'>Título do Banner</p>
+                        <p className='pSubtitle'>Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempo.</p>
+                    </div>
+                </div>
             </div>
         </div>
     );
