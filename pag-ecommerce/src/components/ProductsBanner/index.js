@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
+import Seta from '../../image/seta.png';
+
 import './styles.css';
 
 export default function ProductsBanner(){
@@ -18,6 +20,7 @@ export default function ProductsBanner(){
                         felis imperdiet proin fermentum. Praesent
                         semper feugiat nibh sed pulvinar proin
                         gravida.</h5>
+                    <img className='imgSeta' src={Seta}/>
                 </div>
                 <div>
                     <div>
@@ -63,6 +66,9 @@ export default function ProductsBanner(){
                                             felis imperdiet proin fermentum. Praesent
                                             semper feugiat nibh sed pulvinar proin
                                             gravida.</p>
+                    <button className='button'>
+                        Call-to-action
+                    </button>
                 </div>
                 <div>
                     <Swiper style={{ marginTop: '60px' }} className='swiper-container2'>

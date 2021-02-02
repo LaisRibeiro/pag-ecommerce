@@ -1,4 +1,5 @@
 import React from 'react';
+import { IoLogoInstagram, IoLogoFacebook } from 'react-icons/io5';
 
 import Logo2 from '../../image/logo2.png';
 
@@ -25,6 +26,22 @@ export default function Banner(){
                             <p>Submenu</p>
                         </div>
                     </div>
+                </div>
+                <div>
+                    <h3 className='h3'>MENU</h3>
+                    <div style={{ position: 'relative' }}>
+                    <input
+                        type="text"
+                        placeholder="Email"
+                        />
+                    </div>
+                </div>
+                <div>
+                    <h3 className='h3'>MENU</h3>
+                        <div className='logoRedes'>
+                            <IoLogoInstagram size={30}/>
+                            <IoLogoFacebook size={30}/>
+                        </div>
                 </div>
             </div>
         </footer>

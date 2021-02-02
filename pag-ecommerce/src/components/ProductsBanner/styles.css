@@ -100,8 +100,23 @@
     overflow: hidden;
     }
 
+.button {
+    background-color: black;
+    color: white;
+    font-family: 'PT Sans';
+    font-size: 15px;
+    border-radius: 15%;
+    width: 200px;
+    height: 35px;
+}
+
+.imgSeta {
+    width: 80px;
+    height: auto;
+}
+
 .h1, .imgCard1, .backgroudTxt, .imgCard2, .imgFaixa2,
-.pSubtitle, .pTitle, .swiper-container2 {
+.pSubtitle, .pTitle, .swiper-container2, .button, .imgSeta  {
     position: relative;
     z-index: 5;
   }
