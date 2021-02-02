@@ -12,6 +12,8 @@
     justify-items: center;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 150px;
+    margin-bottom: 80px;
   }
 
 .imgInsta {
@@ -26,4 +28,5 @@
     color: #272727;
     font-family: 'PT Sans';
     text-align: center;
+    font-size: 25px;
 }

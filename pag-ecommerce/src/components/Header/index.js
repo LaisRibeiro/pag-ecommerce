@@ -43,11 +43,11 @@ export default function Header() {
           unmountOnExit
         >
           <nav className="Nav">
-            <a href="/">Menu</a>
-            <a href="/">Menu</a>
-            <a href="/">Menu</a>
-            <a href="/">Menu</a>
-            <a href="/">Menu</a>
+            <a href="/banner">Menu</a>
+            <a href="/banner">Menu</a>
+            <a href="/banner">Menu</a>
+            <a href="/banner">Menu</a>
+            <a href="/banner">Menu</a>
             <nav>
             <IoSearchSharp className='Icons' size={25} />
             <IoPersonCircleOutline className='Icons' size={25}/>
